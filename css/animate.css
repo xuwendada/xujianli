@@ -1,0 +1,196 @@
+.animate{
+    animation: 1s linear;
+}
+.infinite{
+    animation-iteration-count: infinite;
+}
+.forwards{
+    animation-fill-mode: forwards !important;
+}
+.movescale{
+    animation-name: movescale;
+}
+@keyframes movescale {
+    0%{transform: scale(0) rotate(360deg)}
+    100%{transform: scale(1) rotate(0deg)}
+}
+.moveleft{
+    animation: moveleft 1s linear;
+}
+@keyframes moveleft {
+    0%{transform: translateX(-6rem)}
+    75%{transform:skew(30deg)}
+    100%{transform: translateX(0rem)}
+}
+.movexian{
+    animation-name: movexian;
+}
+@keyframes movexian {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.movexingxing{
+    animation-name: movexingxing;
+}
+@keyframes movexingxing {
+    0%{transform: translateX(6rem)}
+    75%{transform:skew(-30deg)}
+    100%{transform: translateX(0rem)}
+}
+.movexx{
+    animation-name: movexx;
+}
+@keyframes movexx {
+    0%{transform: translateY(-6rem)}
+    100%{transform: translateY(0)}
+
+}
+.yan{
+    animation-delay: 1s;
+}
+.yi{
+    animation-name: yi;
+}
+@keyframes yi {
+    0%{transform: translateX(3rem)}
+    100%{transform: translateX(0)}
+}
+.yan1{
+    animation-delay: 2s;
+}
+.yan2{
+    animation-delay: 3s;
+}
+.yan3{
+    animation-delay: 4s;
+}
+.yan4{
+    animation-delay: 5s;
+}
+.yan5{
+    animation-delay: 6s;
+}
+.or{
+    animation-name: or;
+    animation-fill-mode:forwards;
+}
+@keyframes or {
+    0%{transform: translateX(0rem)}
+    100%{transform: translateX(7rem)}
+
+}
+.xuan{
+    animation-name:xuan;
+    animation-fill-mode:forwards;
+}
+@keyframes xuan {
+    0%{transform: translateY(6rem)}
+    100%{transform: translateY(-6rem)}
+
+}
+.xuan1{
+    animation-name: xuan1;
+    animation-fill-mode:forwards;
+}
+@keyframes xuan1 {
+    0%{transform: translateX(0)}
+    100%{transform:translateX(2.5rem)}
+}
+.xuan2{
+    animation-name: xuan2;
+    animation-fill-mode:forwards;
+}
+@keyframes xuan2 {
+    0%{transform: translateY(0)}
+    100%{transform: translateY(3.7rem)}
+}
+.xuan3{
+    animation-name: xuan3;
+    animation-fill-mode:forwards;
+}
+@keyframes xuan3 {
+    0%{transform: translateX(0)}
+    100%{transform: translateX(-3.7rem)}
+}
+.xuan4{
+    animation-name: xuan4;
+    animation-fill-mode:forwards;
+}
+@keyframes xuan4 {
+    0%{opacity: 0;}
+    100%{opacity: 1;}
+}
+.xuan5{
+     animation-name: xuan5;
+     animation-fill-mode:forwards;
+ }
+@keyframes xuan5 {
+    0%{transform: translateX(0)}
+    100%{transform: translateX(5.3rem)}
+}
+.xuan6{
+    animation-name: xuan6;
+    animation-fill-mode:forwards;
+}
+@keyframes xuan6 {
+    0%{transform: translateX(0)}
+
+    100%{transform: translateY(-4.1rem) translateX(0.7rem)}
+}
+.oo{
+    animation-name: oo;
+    animation-fill-mode:forwards;
+}
+@keyframes oo {
+    0%{transform: translateX(0rem)}
+    100%{transform: translateX(10rem)}
+}
+.xuan7{
+    animation-name: xuan7;
+    animation-fill-mode:forwards;
+}
+@keyframes xuan7 {
+    0%{transform: translateY(0)}
+    100%{transform: translateY(-3.9rem)}
+}
+.xuan8{
+    animation-name: xuan8;
+    animation-fill-mode:forwards;
+    animation-duration: 3s;
+}
+@keyframes xuan8 {
+    0%{transform: translateX(0) translateY(0)}
+    25%{transform: translateX(-2rem) translateY(-1.5rem)}
+    50%{transform: translateX(-3.8rem) translateY(1.5rem)}
+    75%{transform: translateX(-4.9rem) translateY(-1.5rem)}
+
+    100%{transform: translateX(-5.8rem) translateY(0rem)}
+}
+.xuan9{
+    animation-name: xuan9;
+}
+@keyframes xuan9 {
+    0%{transform: rotate(0deg)}
+    25%{transform: rotate(90deg)}
+    50%{transform: rotate(180deg)}
+    75%{transform: rotate(270deg)}
+    100%{transform: rotate(360deg)}
+}
+.xuan10{
+    animation-name: xuan10;
+    animation-fill-mode:forwards;
+}
+@keyframes xuan10 {
+    0%{transform: translateX(0)}
+    100%{transform: translateX(9.3rem)}
+}
+.xuan11{
+    animation-name: xuan11;
+    animation-fill-mode:forwards;
+}
+@keyframes xuan11 {
+    0%{transform: translateX(0)}
+    100%{transform: translateX(-8.7rem)}
+}
+
+

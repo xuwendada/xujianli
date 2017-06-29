@@ -1,0 +1,459 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-container{
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: absolute;
+    transition: transform 0.5s linear;
+    top: 0;
+    left: 0;
+}
+
+.pageUp{
+    transform: translateY(-100%);
+}
+.pageDown{
+    transform: translateY(100%);
+}
+
+.page1{
+    width: 100%;
+    height: 100%;
+    background: #9cd5f0;
+    position: relative;
+    overflow: hidden;
+}
+.page1 .box{
+    width: 2.34rem;
+    height: 1.5rem;
+    float: left;
+    position: absolute;
+    left: -1.5rem;
+    top: 0;
+}
+.page1 .box img{
+    width: 200%;
+    height: 200%;
+}
+.page1 .box1{
+    width: 3.01em;
+    height: 3.03em;
+    float: left;
+    position: absolute;
+    left: 0.9rem;
+    top: 0;
+}
+.page1 .box1 img{
+    width: 200%;
+    height: 200%;
+}
+.page1 .box2{
+    width: 1.37em;
+    height: 1.01em;
+    position: absolute;
+    right: 0.5rem;
+    top: 1.3rem;
+
+}
+.page1 .box2 img{
+    width: 200%;
+    height: 200%;
+}
+.page1 .box3{
+    width: 2.02em;
+    height: 3.62em;
+    position: absolute;
+    right: 1.9rem;
+    top: 5rem;
+
+}
+.page1 .box3 img{
+    width: 200%;
+    height: 200%;
+}
+.page1 .box4{
+    width: 2.21em;
+    height: 0.69em;
+    position: absolute;
+    right: 4.5rem;
+    top: 8rem;
+
+}
+.page1 .box4 img{
+    width: 200%;
+    height: 200%;
+}
+.page1 .box5{
+    position: absolute;
+    bottom: 1.5rem;
+    left: 0.8rem;
+}
+.page1 .box5 span{
+    font-size: 0.58rem;
+    color: white;
+}
+
+
+.page2{
+    width: 100%;
+    height: 100%;
+    background: #9cd5f0;
+    overflow: hidden;
+}
+.page2 .box{
+    width: 2.21rem;
+    height: 0.69rem;
+    position: absolute;
+    left: 20%;
+    top: 1rem;
+}
+.page2 .box img{
+    width: 200%;
+    height: 200%;
+}
+.page2 .box1{
+    width: 1.07rem;
+    height: 1.18rem;
+    position: absolute;
+    right: 1.5rem;
+    top: 2rem;
+}
+.page2 .box1 img{
+    width: 200%;
+    height: 200%;
+}
+.page2 .box2{
+    position: absolute;
+    left: 1rem;
+    top: 3rem;
+}
+.page2 .box2{
+    font-size: 0.51rem;
+    color: white;
+}
+.page2 .box3{
+    width: 2.38rem;
+    height: 2.26rem;
+    position: absolute;
+    left:18%;
+    top: 8rem;
+}
+.page2 .box3 img{
+    width: 200%;
+    height: 200%;
+}
+.page2 .box4{
+    width: 1.41rem;
+    height: 0.72rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 8rem;
+}
+.page2 .box4 img{
+    width: 200%;
+    height: 200%;
+}
+
+.page3{
+    width: 100%;
+    height: 100%;
+    background: #9cd5f0;
+    overflow: hidden;
+}
+.page3 .box{
+    width: 0.97rem;
+    height: 1.06rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0rem;
+}
+.page3 .box img{
+    width: 200%;
+    height: 200%;
+}
+.page3 .box1{
+    width: 2.39rem;
+    height: 1.14rem;
+    position: absolute;
+    top: 0.6rem;
+    left: 1rem;
+}
+.page3 .box1 img{
+    width: 200%;
+    height: 200%;
+}
+.page3 .box2{
+    width: 1.33rem;
+    height: 1.39rem;
+    position: absolute;
+    right: 0.6rem;
+    top: 1rem;
+}
+.page3 .box2 img{
+    width: 200%;
+    height: 200%;
+}
+.page3 .box3{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 4rem;
+    left: 0rem;
+}
+.page3 .box3 li{
+    float: left;
+    width: 0.6rem;
+    height: 0.56rem;
+    margin-left: 0.45rem;
+}
+.page3 .box3 li a{
+    font-size: 0.45rem;
+    color: white;
+}
+.page3 .box3 li img{
+    width: 100%;
+    height: 100%;
+}
+.page3 .box4{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 6rem;
+    right: rem;
+}
+.page3 .box4 li{
+    float: left;
+    width: 0.6rem;
+    height: 0.56rem;
+    margin-left: 0.45rem;
+}
+.page3 .box4 li a{
+    font-size: 0.45rem;
+    color: white;
+}
+.page3 .box4 li img{
+    width: 100%;
+    height: 100%;
+}
+.page3 .box5{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 8rem;
+    left: 0rem;
+}
+.page3 .box5 li{
+    float: left;
+    width: 0.6rem;
+    height: 0.56rem;
+    margin-left: 0.45rem;
+}
+.page3 .box5 li a{
+    font-size: 0.45rem;
+    color: white;
+}
+.page3 .box5 li img{
+    width: 100%;
+    height: 100%;
+}
+.page3 .box6{
+    width: 100%;
+    height: 1rem;
+    position: absolute;
+    top: 10rem;
+    right: 0rem;
+}
+.page3 .box6 li{
+    float: left;
+    width: 0.6rem;
+    height: 0.56rem;
+    margin-left: 0.45rem;
+}
+.page3 .box6 li a{
+    font-size: 0.45rem;
+    color: white;
+    text-align: left;
+}
+.page3 .box6 li img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
+.page4{
+    width: 100%;
+    height: 100%;
+    background: #9cd5f0;
+    overflow: hidden;
+}
+.page4 .box{
+    width: 0.97rem;
+    height: 1.06rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0rem;
+}
+.page4 .box img{
+    width: 200%;
+    height: 200%;
+}
+.page4 .box1{
+    width: 2.39rem;
+    height: 1.14rem;
+    position: absolute;
+    top: 0.6rem;
+    left: 1rem;
+}
+.page4 .box1 img{
+    width: 200%;
+    height: 200%;
+}
+.page4 .box2{
+    width: 1.33rem;
+    height: 1.39rem;
+    position: absolute;
+   right: 0.6rem;
+    top: 2rem;
+}
+.page4 .box2 img{
+    width: 200%;
+    height: 200%;
+}
+.page4 .box3{
+    width: 2.51rem;
+    height: 0.69rem;
+    position: absolute;
+    top: 3rem;
+    left: 1rem;
+    font-size: 0.62rem;
+    color: white;
+}
+.page4 .box4{
+    width: 3rem;
+    height: 4rem;
+}
+.page4 .box4 img{
+    width: 3rem;
+    height: 5rem;
+    position: absolute;
+    left: 0.25rem;
+    top: 6rem;
+}
+.page4 .box5{
+    width: 3rem;
+    height: 4rem;
+}
+.page4 .box5 img{
+    width: 3rem;
+    height: 5rem;
+    position: absolute;
+    right: 0.25rem;
+    top: 6rem;
+}
+
+
+.page5{
+    width: 100%;
+    height: 100%;
+    background: #9cd5f0;
+    overflow: hidden;
+}
+.page5 .box{
+    width: 0.97rem;
+    height: 1.06rem;
+    position: absolute;
+    top: 0.5rem;
+    left: 0rem;
+}
+.page5 .box img{
+    width: 200%;
+    height: 200%;
+}
+.page5 .box1{
+    width: 2.39rem;
+    height: 1.14rem;
+    position: absolute;
+    top: 0.6rem;
+    left: 1rem;
+}
+.page5 .box1 img{
+    width: 200%;
+    height: 200%;
+}
+.page5 .box2{
+    width: 1.33rem;
+    height: 1.39rem;
+    position: absolute;
+    right: 0.6rem;
+    top: 2rem;
+}
+.page5 .box2 img{
+    width: 200%;
+    height: 200%;
+}
+.page5 .box3{
+    position: absolute;
+    top: 3.3rem;
+    left: 1.5rem;
+    font-size: 0.6rem;
+    color: white;
+}
+.page5 .box4{
+    position: absolute;
+    left: 1rem;
+    top: 3.8rem;
+    font-size: 0.55rem;
+    margin-top: 1rem;
+    color: whitesmoke;
+}
+.page5 .box4 input{
+    border:0;
+}
+.page5 .box5{
+    width: 1.57rem;
+    height: 1.45rem;
+    position: absolute;
+    bottom: 3rem;
+    left: 2rem;
+}
+.page5 .box5 img{
+    width: 200%;
+    height: 200%;
+}
+
+.tt1{
+    width: 0.44rem;
+    height: 0.44rem;
+    position: absolute;
+    right: 0.5rem;
+    top: 0rem;
+    z-index: 666;
+}
+.tt1 img{
+    width: 200%;
+    height: 200%;
+}
+
+
